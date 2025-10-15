@@ -37,7 +37,7 @@ The AI service is containerized with Docker and designed for deployment on platf
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/JayeshSardesai/Saas-Platform.git](https://github.com/JayeshSardesai/Saas-Platform.git)
+    git clone https://github.com/JayeshSardesai/Saas-Platform.git
     cd Saas-Platform
     ```
 
@@ -96,7 +96,7 @@ DATABASE_URL=postgres://YOUR_DB_USER:YOUR_DB_PASSWORD@localhost:5432/YOUR_DB_NAM
 JWT_SECRET=your-super-secret-jwt-key-that-is-long-and-random
 
 # Email Configuration (use your own Gmail and App Password)
-# See [https://support.google.com/accounts/answer/185833](https://support.google.com/accounts/answer/185833) for App Passwords
+# See https://support.google.com/accounts/answer/185833 for App Passwords
 EMAIL_USER=youremail@gmail.com
 EMAIL_PASS=your-gmail-app-password
 
@@ -105,13 +105,14 @@ GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
 # Summarizer API Endpoint
 # Option 1: For local development, use the local service URL
-ANALYSIS_API_URL="[http://127.0.0.1:7860](http://127.0.0.1:7860)"
+ANALYSIS_API_URL="http://127.0.0.1:7860"
 # Option 2: For production, use your deployed Hugging Face Space URL
-# ANALYSIS_API_URL="[https://your-username-your-space-name.hf.space](https://your-username-your-space-name.hf.space)"
+# ANALYSIS_API_URL="https://your-username-your-space-name.hf.space"
 
 # Razorpay Credentials (get these from your Razorpay dashboard)
 RAZORPAY_KEY_ID=rzp_test_YOUR_KEY_ID
 RAZORPAY_KEY_SECRET=YOUR_KEY_SECRET                  
+```
 
 ## 📁 Project Structure
 ```bash
